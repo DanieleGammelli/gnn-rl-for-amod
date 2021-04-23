@@ -1,5 +1,5 @@
 # Graph Neural Network Reinforcement Learning for AMoD
-Official implementation of [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand](https://arxiv.org/)
+Official implementation of [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems](https://arxiv.org/)
 
 <img align="center" src="images/gnn-for-amod.png" width="700"/></td> <br/>
 
@@ -14,13 +14,13 @@ pip install -r requirements.txt
 
 ## Contents
 
-* `/src/algos/a2c_gnn.py`: PyTorch implementation of A2C-GNN.
-* `/src/algos/reb_flow_solver.py`: thin wrapper around CPLEX formulation of the rebalancing problem (Section III-A in the paper).
-* `/src/envs/a2c_gnn.py`: AMoD simulator.
-* `/src/cplex_mod/`: CPLEX formulation of Rebalancing and Matching problems.
-* `/src/misc/`: helper functions.
-* `/data/`: json files for NYC experiments.
-* `/saved_files/`: directory for saving results, logging, etc.
+* `src/algos/a2c_gnn.py`: PyTorch implementation of A2C-GNN.
+* `src/algos/reb_flow_solver.py`: thin wrapper around CPLEX formulation of the Rebalancing problem (Section III-A in the paper).
+* `src/envs/amod_env.py`: AMoD simulator.
+* `src/cplex_mod/`: CPLEX formulation of Rebalancing and Matching problems.
+* `src/misc/`: helper functions.
+* `data/`: json files for NYC experiments.
+* `saved_files/`: directory for saving results, logging, etc.
 
 ## Examples
 
@@ -30,11 +30,11 @@ cplex arguments:
     --cplexpath defines directory of the CPLEX installation
     
 model arguments:
-    --test          activates test mode for agent evaluation (default: False)
+    --test          activates agent evaluation mode (default: False)
     --max_episodes  number of episodes to train agent (default: 16k)
     --max_steps     number of steps per episode (default: T=60)
     --no-cuda       disables CUDA training (default: True, i.e. run on CPU)
-    --directory     defines directory where to log files (default: "saved_files")
+    --directory     defines directory where to log files (default: saved_files)
     
 simulator arguments: (unless necessary, we recommend using the provided ones)
     --seed          random seed (default: 10)
