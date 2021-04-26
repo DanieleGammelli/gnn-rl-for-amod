@@ -1,4 +1,4 @@
-# Graph Neural Network Reinforcement Learning for AMoD
+# Graph Neural Network Reinforcement Learning for AMoD Systems
 Official implementation of [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems](https://arxiv.org/)
 
 <img align="center" src="images/gnn-for-amod.png" width="700"/></td> <br/>
@@ -67,10 +67,10 @@ This work was conducted as a joint effort with [Kaidi Yang*](https://sites.googl
 
 ## Reference
 ```
-@article{,
-  title={Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand},
-  author={},
-  booktitle={},
-  year={2021}
+@Online{gammelli2021graph,
+  title={Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems}, 
+  author={Gammelli, D and Yang, K and Harrison, J and Rodrigues, F and Pereira, F., and Pavone, M},
+  year={2021},
+  note      = {{Available at }\url{https://arxiv.org/abs/2104.11434}},
 }
 ```
