@@ -1,5 +1,5 @@
 # Graph Neural Network Reinforcement Learning for AMoD Systems
-Official implementation of [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems](https://arxiv.org/)
+Official implementation of [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems](https://arxiv.org/abs/2104.11434)
 
 <img align="center" src="images/gnn-for-amod.png" width="700"/></td> <br/>
 
