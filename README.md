@@ -27,7 +27,7 @@ pip install -r requirements.txt
 To train an agent, `main.py` accepts the following arguments:
 ```bash
 cplex arguments:
-    --cplexpath defines directory of the CPLEX installation
+    --cplexpath     defines directory of the CPLEX installation
     
 model arguments:
     --test          activates agent evaluation mode (default: False)
@@ -67,10 +67,13 @@ This work was conducted as a joint effort with [Kaidi Yang*](https://sites.googl
 
 ## Reference
 ```
-@Online{gammelli2021graph,
-  title={Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems}, 
-  author={Gammelli, D and Yang, K and Harrison, J and Rodrigues, F and Pereira, F., and Pavone, M},
-  year={2021},
-  note      = {{Available at }\url{https://arxiv.org/abs/2104.11434}},
+@inproceedings{GammelliYangEtAl2021,
+  author = {Gammelli, D. and Yang, K. and Harrison, J. and Rodrigues, F. and Pereira, F. C. and Pavone, M.},
+  title = {Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems},
+  year = {2021},
+  note = {Submitted},
 }
 ```
+
+----------
+In case of any questions, bugs, suggestions or improvements, please feel free to contact me at daga@dtu.dk.
